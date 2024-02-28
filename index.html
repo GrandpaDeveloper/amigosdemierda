@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Cartas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Crear o Unirse a Partida</title>
+        <!-- Agrega aquí el enlace al CSS -->
+    </head>
+    <body>
+    
+    <div>
+        <input type="text" id="gameCode" placeholder="Código de partida">
+        <button onclick="createGame()">Crear Partida</button>
+        <input type="text" id="userPhrase" placeholder="Escribe tu frase aquí">
+        <button onclick="submitPhrase()">Enviar Frase</button>
+    </div>
+    
+    <!-- Configuración de Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+    
